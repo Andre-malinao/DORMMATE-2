@@ -1,0 +1,17 @@
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId "com.example.dormmate"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+}
